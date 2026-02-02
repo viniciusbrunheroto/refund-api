@@ -6,8 +6,8 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsup src",
     "start": "node dist/server.js",
-    "prisma:dev": "prisma generate --schema=prisma/schema.dev.prisma && prisma migrate dev --schema=prisma/schema.dev.prisma",
-    "prisma:prod": "prisma generate --schema=prisma/schema.prod.prisma && prisma migrate deploy --schema=prisma/schema.prod.prisma"
+    "prisma:dev": "prisma generate --schema=prisma/dev/schema.prisma && prisma migrate dev --schema=prisma/dev/schema.prisma",
+    "prisma:prod": "prisma generate --schema=prisma/prod/schema.prisma && prisma migrate deploy --schema=prisma/prod/schema.prisma"
   },
   "keywords": [],
   "author": "",
