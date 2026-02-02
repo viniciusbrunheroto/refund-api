@@ -4,8 +4,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
+    "build": "tsup src",
+    "start": "node dist/server.js",
+    "prisma:dev": "prisma generate --schema=prisma/schema.dev.prisma && prisma migrate dev --schema=prisma/schema.dev.prisma",
+    "prisma:prod": "prisma generate --schema=prisma/schema.prod.prisma && prisma migrate deploy --schema=prisma/schema.prod.prisma"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +21,7 @@
     "@types/multer": "^1.4.12",
     "prisma": "^6.19.2",
     "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
   },
@@ -26,10 +29,11 @@
     "@prisma/client": "^6.19.2",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^4.19.2",
     "express-async-errors": "^3.1.1",
     "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.1",
-    "zod": "^3.24.1"
+    "zod": "^3.25.76"
   }
 }
