@@ -1,10 +1,5 @@
 # Sistema de Reembolso (Refund App)
 
-<p align="center" dir="auto">
-  <img alt="Projeto 01" src=".github/refund-1.jpg" style="max-width: 100%;"></a>
-</p>
-
-
 ## 💻 Descrição
 
 Desenvolvi um projeto fullstack de reembolsos, com foco em autenticação, controle de acesso por roles e integração completa entre front-end e back-end.
