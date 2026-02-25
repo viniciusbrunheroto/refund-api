@@ -1,4 +1,4 @@
-# Aplicação com cadastro, login e validação da sessão do usuário
+# Sistema de Reembolso (Refund App)
 
 <p align="center" dir="auto">
   <img alt="Projeto 01" src=".github/refund-1.jpg" style="max-width: 100%;"></a>
