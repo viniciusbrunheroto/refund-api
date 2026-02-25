@@ -9,9 +9,9 @@ A aplicação conta com cadastro e login, dividindo os usuários em dois perfis:
 
 ## 🛠 Tecnologias
 
-⚙️ Back-end: https://lnkd.in/dgG_Gssm
-Desenvolvido com Node.js e Express, utilizando:
-SQLite no ambiente de desenvolvimento
+⚙️ Back-end: https://lnkd.in/dgG_Gssm<br/>
+Desenvolvido com Node.js e Express, utilizando:<br/>
+SQLite no ambiente de desenvolvimento<br/>
 PostgreSQL em produção
 
 
